@@ -15,7 +15,7 @@ export function Portfolio() {
           <h2 id="portfolio-heading" className="font-sans font-bold text-4xl lg:text-5xl text-primary mb-6">
             Our Portfolio
           </h2>
-          <p className="text-xl text-secondary max-w-3xl mx-auto font-serif">
+          <p className="text-xl text-secondary max-w-3xl mx-auto font-normal">
             Explore our collection of innovative 3D medical illustrations and full-stack applications that are
             transforming medical education and healthcare visualization.
           </p>
@@ -47,7 +47,7 @@ export function Portfolio() {
                     </span>
                   </div>
                   <h3 className="font-sans font-bold text-xl text-primary mb-3">{project.title}</h3>
-                  <p className="text-secondary mb-4 font-serif">{project.description}</p>
+                  <p className="text-secondary mb-4 font-normal">{project.description}</p>
 
                   <div className="flex gap-2">
                     <Button variant="default" className="flex-1 group-hover:shadow-lg transition-all" asChild>

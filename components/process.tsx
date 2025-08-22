@@ -40,7 +40,7 @@ export function Process() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="font-sans font-bold text-4xl lg:text-5xl text-primary mb-6">Our Process</h2>
-          <p className="text-xl text-secondary max-w-3xl mx-auto font-serif">
+          <p className="text-xl text-secondary max-w-3xl mx-auto font-normal">
             From initial consultation to final delivery, we follow a proven methodology that ensures exceptional results
             for every medical visualization project.
           </p>
@@ -57,7 +57,7 @@ export function Process() {
                   <div className="text-sm font-medium text-accent mb-2">Step {index + 1}</div>
                 </div>
                 <h3 className="font-sans font-bold text-lg text-primary mb-3">{step.title}</h3>
-                <p className="text-secondary text-sm font-serif">{step.description}</p>
+                <p className="text-secondary text-sm font-normal">{step.description}</p>
               </CardContent>
             </Card>
           ))}

@@ -10,7 +10,7 @@ export function About() {
             <h2 className="font-sans font-bold text-4xl lg:text-5xl text-primary mb-6">
               Transforming Medical Education Through Innovation
             </h2>
-            <p className="text-xl text-secondary mb-8 font-serif leading-relaxed">
+            <p className="text-xl text-secondary mb-8 font-normal leading-relaxed">
               We are a specialized studio dedicated to creating cutting-edge 3D medical illustrations and full-stack
               applications. Our team combines deep medical knowledge with advanced technology to deliver interactive
               educational tools that enhance learning and improve patient outcomes.

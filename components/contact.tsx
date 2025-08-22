@@ -38,7 +38,7 @@ export function Contact() {
           <h2 id="contact-heading" className="font-sans font-bold text-4xl lg:text-5xl text-primary mb-6">
             Start Your Project
           </h2>
-          <p className="text-xl text-secondary max-w-3xl mx-auto font-serif">
+          <p className="text-xl text-secondary max-w-3xl mx-auto font-normal">
             Ready to transform your medical education or visualization needs? Let's discuss how we can bring your vision
             to life.
           </p>
@@ -139,7 +139,7 @@ export function Contact() {
                     <h3 className="font-sans font-bold text-lg text-primary mb-1">Email Us</h3>
                     <a
                       href="mailto:hello@medivizstudio.com"
-                      className="text-secondary font-serif hover:text-accent transition-colors"
+                      className="text-secondary font-normal hover:text-accent transition-colors"
                       aria-label="Send email to hello@medivizstudio.com"
                     >
                       hello@medivizstudio.com
@@ -157,7 +157,7 @@ export function Contact() {
                     <h3 className="font-sans font-bold text-lg text-primary mb-1">Call Us</h3>
                     <a
                       href="tel:+15551234567"
-                      className="text-secondary font-serif hover:text-accent transition-colors"
+                      className="text-secondary font-normal hover:text-accent transition-colors"
                       aria-label="Call us at +1 (555) 123-4567"
                     >
                       +1 (555) 123-4567
@@ -173,7 +173,7 @@ export function Contact() {
                   <MapPin className="h-6 w-6 text-accent mt-1" aria-hidden="true" />
                   <div>
                     <h3 className="font-sans font-bold text-lg text-primary mb-1">Visit Us</h3>
-                    <address className="text-secondary font-serif not-italic">
+                    <address className="text-secondary font-normal not-italic">
                       Medical Innovation Center
                       <br />
                       123 Healthcare Blvd

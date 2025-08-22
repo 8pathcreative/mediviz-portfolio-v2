@@ -13,7 +13,7 @@ export function Hero() {
               <span className="text-accent block">Visualization</span>
               to Life
             </h1>
-            <p className="text-xl text-secondary leading-relaxed font-serif">
+            <p className="text-xl text-secondary leading-relaxed font-normal">
               We create cutting-edge 3D medical illustrations and full-stack applications that transform complex medical
               concepts into interactive, educational experiences for healthcare professionals and students.
             </p>
