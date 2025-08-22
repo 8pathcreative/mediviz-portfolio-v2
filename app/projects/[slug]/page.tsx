@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: ProjectPageProps) {
   }
 
   return {
-    title: `${project.title} | MediViz Portfolio`,
+    title: `${project.title} | Mediviz Portfolio`,
     description: project.longDescription,
     openGraph: {
       title: project.title,

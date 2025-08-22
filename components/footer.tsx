@@ -9,7 +9,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <h3 className="text-xl font-semibold text-white font-work-sans">mediviz Studio</h3>
+            <h3 className="text-xl font-semibold text-white font-work-sans">Mediviz Studio</h3>
             <p className="text-sm leading-relaxed">
               Professional 3D medical illustration and full-stack application development studio specializing in
               interactive medical education and visualization tools.
@@ -55,7 +55,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-8 pt-8 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-center">
-          <p className="text-sm text-gray-400">© {currentYear} mediviz Studio. All rights reserved.</p>
+          <p className="text-sm text-gray-400">© {currentYear} Mediviz Studio. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 sm:mt-0">
             <Link href="#" className="text-sm text-gray-400 hover:text-gray-300 transition-colors">
               Privacy Policy

@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://mediviz-portfolio-v2.vercel.app/sitemap.xml",
+    sitemap: "https://Mediviz-portfolio-v2.vercel.app/sitemap.xml",
   }
 }
