@@ -174,11 +174,11 @@ export function Contact() {
                   <div>
                     <h3 className="font-sans font-bold text-lg text-primary mb-1">Visit Us</h3>
                     <address className="text-secondary font-normal not-italic">
-                      Medical Innovation Center
+                      Mediviz, LLC
                       <br />
-                      123 Healthcare Blvd
+                      123 Mediviz Blvd
                       <br />
-                      Innovation City, IC 12345
+                      Omaha, NE 68102
                     </address>
                   </div>
                 </div>
