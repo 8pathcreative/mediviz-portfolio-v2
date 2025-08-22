@@ -9,7 +9,7 @@ const projects = getAllProjects()
 
 export function Portfolio() {
   return (
-    <section id="portfolio" className="py-20 px-6 bg-muted/30" aria-labelledby="portfolio-heading">
+    <section id="portfolio" className="py-20 px-6 bg-slate-50" aria-labelledby="portfolio-heading">
       <div className="max-w-7xl mx-auto">
         <header className="text-center mb-16">
           <h2 id="portfolio-heading" className="font-sans font-bold text-4xl lg:text-5xl text-primary mb-6">
