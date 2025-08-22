@@ -25,7 +25,7 @@ export function Hero() {
                 </a>
               </Button>
               <Button variant="outline" size="lg" className="text-lg px-8 bg-transparent" asChild>
-                <a href="#demo" aria-label="Watch demonstration of our medical applications">
+                <a href="https://res.cloudinary.com/nkh/video/upload/f_auto,q_auto/v1681265717/2023/UNMC-iEXCEL-Visualization-Database.mp4" aria-label="Watch demonstration of our medical applications">
                   <Play className="mr-2 h-5 w-5" aria-hidden="true" />
                   Watch Demo
                 </a>
