@@ -41,7 +41,7 @@ export function Footer() {
           {/* Contact */}
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-white font-work-sans">Contact</h3>
-            <div className="space-y-2 text-sm">
+            <div className="space-y-4 text-sm">
               <p>Ready to bring your medical project to life?</p>
               <Link
                 href="#contact"
