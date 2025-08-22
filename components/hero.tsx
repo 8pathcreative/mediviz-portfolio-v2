@@ -35,7 +35,7 @@ export function Hero() {
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden bg-muted shadow-2xl">
               <Image
-                src="/3d-pelvic-floor-image.webp"
+                src="https://res.cloudinary.com/nkh/image/upload/f_auto,q_auto/v1652209773/Compressed/anatomy-suite-zspace.png"
                 alt="Interactive 3D medical visualization showing detailed human anatomy with educational overlays"
                 width={600}
                 height={600}
