@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "MedViz Studio - 3D Medical Illustration & Full-Stack Applications",
+  title: "mediviz Studio - 3D Medical Illustration & Full-Stack Applications",
   description:
     "Professional 3D medical illustration and full-stack application development studio specializing in interactive medical education and visualization tools for healthcare professionals.",
   keywords: [
@@ -17,30 +17,30 @@ export const metadata: Metadata = {
     "UNMC collaboration",
     "medical training tools",
   ],
-  authors: [{ name: "MedViz Studio" }],
-  creator: "MedViz Studio",
-  publisher: "MedViz Studio",
+  authors: [{ name: "mediviz Studio" }],
+  creator: "mediviz Studio",
+  publisher: "mediviz Studio",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://medviz-studio.com"),
+  metadataBase: new URL("https://mediviz-studio.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "MedViz Studio - 3D Medical Illustration & Full-Stack Applications",
+    title: "mediviz Studio - 3D Medical Illustration & Full-Stack Applications",
     description:
       "Professional 3D medical illustration and full-stack application development studio specializing in interactive medical education and visualization tools.",
-    url: "https://medviz-studio.com",
-    siteName: "MedViz Studio",
+    url: "https://mediviz-studio.com",
+    siteName: "mediviz Studio",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "MedViz Studio - 3D Medical Visualization",
+        alt: "mediviz Studio - 3D Medical Visualization",
       },
     ],
     locale: "en_US",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "MedViz Studio - 3D Medical Illustration & Full-Stack Applications",
+    title: "mediviz Studio - 3D Medical Illustration & Full-Stack Applications",
     description:
       "Professional 3D medical illustration and full-stack application development studio specializing in interactive medical education.",
     images: ["/og-image.jpg"],
@@ -86,15 +86,15 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "MedViz Studio",
+              name: "mediviz Studio",
               description: "Professional 3D medical illustration and full-stack application development studio",
-              url: "https://medviz-studio.com",
-              logo: "https://medviz-studio.com/logo.png",
+              url: "https://mediviz-studio.com",
+              logo: "https://mediviz-studio.com/logo.png",
               sameAs: ["https://www.unmc.edu/iexcel/"],
               contactPoint: {
                 "@type": "ContactPoint",
                 contactType: "Business",
-                email: "contact@medviz-studio.com",
+                email: "contact@mediviz-studio.com",
               },
               areaServed: "Worldwide",
               serviceType: [

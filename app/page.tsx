@@ -8,11 +8,11 @@ import { Footer } from "@/components/footer"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "MedViz Studio - Professional 3D Medical Illustration & Development",
+  title: "mediviz Studio - Professional 3D Medical Illustration & Development",
   description:
     "Leading studio creating interactive 3D medical visualizations and full-stack healthcare applications. Specializing in medical education tools, anatomical models, and clinical training software.",
   openGraph: {
-    title: "MedViz Studio - Professional 3D Medical Illustration & Development",
+    title: "mediviz Studio - Professional 3D Medical Illustration & Development",
     description:
       "Leading studio creating interactive 3D medical visualizations and full-stack healthcare applications.",
   },

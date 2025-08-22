@@ -16,8 +16,8 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="font-sans font-bold text-xl text-primary">
-            <a href="/" aria-label="MedViz Studio - Home">
-              MedViz Studio
+            <a href="/" aria-label="mediviz Studio - Home">
+              mediviz Studio
             </a>
           </div>
 
@@ -40,7 +40,7 @@ export function Navigation() {
             <a
               href="#about"
               className="text-secondary hover:text-primary transition-colors"
-              aria-label="About MedViz Studio"
+              aria-label="About mediviz Studio"
             >
               About
             </a>
@@ -86,7 +86,7 @@ export function Navigation() {
                 href="#about"
                 className="text-secondary hover:text-primary transition-colors"
                 onClick={() => setIsMenuOpen(false)}
-                aria-label="About MedViz Studio"
+                aria-label="About mediviz Studio"
               >
                 About
               </a>

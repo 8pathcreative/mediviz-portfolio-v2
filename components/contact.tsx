@@ -138,11 +138,11 @@ export function Contact() {
                   <div>
                     <h3 className="font-sans font-bold text-lg text-primary mb-1">Email Us</h3>
                     <a
-                      href="mailto:hello@medvizstudio.com"
+                      href="mailto:hello@medivizstudio.com"
                       className="text-secondary font-serif hover:text-accent transition-colors"
-                      aria-label="Send email to hello@medvizstudio.com"
+                      aria-label="Send email to hello@medivizstudio.com"
                     >
-                      hello@medvizstudio.com
+                      hello@medivizstudio.com
                     </a>
                   </div>
                 </div>
