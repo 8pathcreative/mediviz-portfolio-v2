@@ -16,13 +16,13 @@ export function Footer() {
             </p>
             <div className="flex space-x-4">
               <Link
-                href="https://www.unmc.edu/iexcel/"
+                href="/projects/3d-pelvic-floor"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-400 hover:text-blue-300 transition-colors text-sm"
               >
-                UNMC iEXCEL Partnership
-              </Link>
+                Projects
+              </Link> 
             </div>
           </div>
 
