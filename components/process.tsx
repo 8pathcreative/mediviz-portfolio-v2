@@ -36,7 +36,7 @@ const processSteps = [
 
 export function Process() {
   return (
-    <section id="process" className="py-20 px-6">
+    <section id="process" className="py-20 px-6 scroll-mt-16">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="font-sans font-bold text-4xl lg:text-5xl text-primary mb-6">Our Process</h2>

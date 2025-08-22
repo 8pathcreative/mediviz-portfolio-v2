@@ -3,7 +3,7 @@ import { Award, Users, Zap } from "lucide-react"
 
 export function About() {
   return (
-    <section id="about" className="py-20 px-6 bg-muted/30">
+    <section id="about" className="py-20 px-6 bg-muted/30 scroll-mt-16">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>

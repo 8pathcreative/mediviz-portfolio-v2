@@ -32,7 +32,7 @@ export function Contact() {
   }
 
   return (
-    <section id="contact" className="py-20 px-6" aria-labelledby="contact-heading">
+    <section id="contact" className="py-20 px-6 scroll-mt-16" aria-labelledby="contact-heading">
       <div className="max-w-7xl mx-auto">
         <header className="text-center mb-16">
           <h2 id="contact-heading" className="font-sans font-bold text-4xl lg:text-5xl text-primary mb-6">
