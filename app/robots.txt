@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://medviz-studio.com/sitemap.xml
+Sitemap: https://mediviz-portfolio-v2.vercel.app/sitemap.xml
