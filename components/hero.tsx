@@ -46,7 +46,7 @@ export function Hero() {
             </div>
             <div className="absolute -bottom-6 -left-6 bg-card border border-border rounded-xl p-6 shadow-xl">
               <div className="flex items-center space-x-3">
-                <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" aria-hidden="true"></div>
+                <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse animate-ping" aria-hidden="true"></div>
                 <span className="text-sm font-medium text-card-foreground">Interactive 3D Models</span>
               </div>
             </div>
