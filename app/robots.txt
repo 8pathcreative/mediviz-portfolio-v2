@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://medviz-studio.com/sitemap.xml
