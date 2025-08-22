@@ -17,7 +17,7 @@ export function Navigation() {
         <div className="flex items-center justify-between">
           <div className="font-sans font-bold text-xl text-primary">
             <a href="/" aria-label="Mediviz Studio - Home">
-              <img src="/mediviz-studio-logo.png" style={{maxWidth: '148px', maxHeight: '28px'}} alt="Mediviz Studio Logo" />
+              <img src="/mediviz-studio-logo.png" style={{maxWidth: '148px'}} alt="Mediviz Studio Logo" />
             </a>
           </div>
 
