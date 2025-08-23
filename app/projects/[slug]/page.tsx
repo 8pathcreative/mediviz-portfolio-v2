@@ -27,14 +27,21 @@ export async function generateMetadata({ params }: ProjectPageProps) {
     }
   }
 
+  // Build metadata: prefer hero-specific fields for social sharing, fall back to defaults
+  const title = `${project.title} | Mediviz Portfolio`
+  const description = project.heroTagline || project.longDescription
+
+  // Ensure OG image is absolute (social platforms require absolute URLs)
+  const rawImage = project.heroImage || project.image || "/placeholder.jpg"
+  const ogImage = rawImage.startsWith("http") ? rawImage : `https://vismedstudio.vercel.app${rawImage}`
+
   return {
-    title: `${project.title} | Mediviz Portfolio`,
-    // Prefer hero-specific fields when available for social sharing
-    description: project.heroTagline || project.longDescription,
+    title,
+    description,
     openGraph: {
       title: project.title,
-      description: project.heroTagline || project.longDescription,
-      images: [project.heroImage || project.image],
+      description,
+      images: [ogImage],
     },
   }
 }
