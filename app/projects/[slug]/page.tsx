@@ -29,11 +29,12 @@ export async function generateMetadata({ params }: ProjectPageProps) {
 
   return {
     title: `${project.title} | Mediviz Portfolio`,
-    description: project.longDescription,
+    // Prefer hero-specific fields when available for social sharing
+    description: project.heroTagline || project.longDescription,
     openGraph: {
       title: project.title,
-      description: project.longDescription,
-      images: [project.image],
+      description: project.heroTagline || project.longDescription,
+      images: [project.heroImage || project.image],
     },
   }
 }

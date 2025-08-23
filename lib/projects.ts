@@ -5,6 +5,9 @@ export interface Project {
   description: string
   longDescription: string
   image: string
+  // Optional hero-specific fields used for Open Graph and hero display
+  heroImage?: string
+  heroTagline?: string
   url: string
   category: string
   technologies: string[]
@@ -24,7 +27,9 @@ export const projects: Project[] = [
     description: "Interactive 3D anatomical model for medical education and patient consultation.",
     longDescription:
       "An advanced 3D visualization platform that allows medical professionals and students to explore pelvic floor anatomy in unprecedented detail. The application features real-time manipulation, cross-sectional views, and educational annotations.",
-    image: "/pelvic-floor-anatomy-3d.png",
+  image: "/pelvic-floor-anatomy-3d.png",
+  heroImage: "/pelvic-floor-anatomy-3d.png",
+  heroTagline: "Interactive 3D anatomical model for medical education and patient consultation.",
     url: "https://3dpelvicfloor.netlify.app/",
     category: "3D Visualization",
     technologies: ["Three.js", "WebGL", "React", "TypeScript", "Medical Imaging"],
@@ -54,7 +59,9 @@ export const projects: Project[] = [
     description: "Comprehensive database of medical visualizations and interactive learning modules.",
     longDescription:
       "A centralized platform housing hundreds of medical visualizations, interactive modules, and educational resources for healthcare professionals and students worldwide.",
-    image: "/medical-visualization-dashboard.png",
+  image: "/medical-visualization-dashboard.png",
+  heroImage: "/medical-visualization-dashboard.png",
+  heroTagline: "Comprehensive database of medical visualizations and interactive learning modules.",
     url: "https://visualizationdatabase.netlify.app/",
     category: "Database Platform",
     technologies: ["Next.js", "PostgreSQL", "AWS", "React", "Node.js"],
@@ -84,7 +91,9 @@ export const projects: Project[] = [
     description: "Interactive diagnostic tool for Benign Paroxysmal Positional Vertigo assessment.",
     longDescription:
       "A specialized web application designed to help healthcare providers diagnose and treat BPPV through interactive 3D head positioning simulations and assessment protocols.",
-    image: "/bppv-simulation.png",
+  image: "/bppv-simulation.png",
+  heroImage: "/bppv-simulation.png",
+  heroTagline: "Interactive diagnostic tool for Benign Paroxysmal Positional Vertigo assessment.",
     url: "https://webmedia.unmc.edu/iexcel/apps/bppv/index.html",
     category: "Diagnostic Tool",
     technologies: ["JavaScript", "WebGL", "Medical Protocols", "3D Animation"],
